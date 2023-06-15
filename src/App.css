@@ -1,0 +1,31 @@
+.message-div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+}
+
+.blink_me {
+    background: red !important;
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #c9c3bb;
+    border-radius: 100px;
+  }
